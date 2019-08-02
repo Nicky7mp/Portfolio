@@ -1,0 +1,38 @@
+body {
+    background-image: url(../portfolio/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: bisque;
+    font-size: 70px;
+}
+
+h2 {
+    color: azure;
+    font-size: 30px;
+}
+
+.photo {
+    padding-left: 40px;
+    display: flex;
+    justify-content: flex-start
+}
